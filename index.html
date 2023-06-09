@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hotel Booking</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    form {
+      background-color: #f2f2f2;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+    input[type="text"],
+    input[type="Contact"],
+    select {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+
+
+    input[type="submit"] {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #555;
+    }
+    
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>About Me</h1>
+    </div>
+  </header>
+
+  <main>
+    
+    <div class="container">
+
+        <img src="me.jpg" alt="a nice picture of me" height="300" width="300" >
+        <h3>Angela Obour Mensah</h3>
+        <h4>0241435690</h4>
+        <h4>mensahangela925@gmail.com</h4>
+        <h4>sam link- Abeka street</h4>
+        <p> <strong>heya!! welcome to my page,</strong>i am Angela Obour Mensah, a young lady who has 
+            strong passion for tech. I am also an Influencer,Youtuber,Actress and a Model.I have a few knowledge in Fontend and Backend
+        i like to chill out with friends and learning new things.My biggest motivation is to be part of the few strong women in Tech to do 
+        more awesome coding</p>                 
+        <h1>Contact Me </h1>
+    </div>
+            
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name">
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email">
+
+        <label for="Contact">Contact:</label>
+        <input type="Contact" id="Contact" name="Contact" placeholder="Enter your contact">
+
+
+        <label for="checkin">Check-in Date:</label>
+        <input type="text" id="checkin" name="checkin" placeholder="Enter check-in date">
+
+        <label for="checkout">Check-out Date:</label>
+        <input type="text" id="checkout" name="checkout" placeholder="Enter check-out date">
+
+        <label for="rooms">Number of Rooms:</label>
+        <select id="rooms" name="rooms">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+
+        <input type="submit" value="Book Now">
+      </form>
+    </div>
+  </main>
+</body>
+</html>
